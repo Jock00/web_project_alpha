@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+    Second
+    
+    </title>
+        
+    <style>
+    
+    
+    .container {
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: 50px 50px 50px 50px;
+    align-items:center;
+}
+    </style>
+    </head>
+
+<body>
+    
+    
+    
+    
+
+    
+    
+  <div class="container">
+      <article>Userul a fost adaugat</article>
+      <article>Userul 2 a fost sters</article>
+      <article>Userul 3 a fost modificat</article>
+      <article>Userii sunt :</article>
+      <div id="get">   </div>
+</div>
+    
+    
+    
+    
+    
+    
+    
+    
+ 
+   
+<script>
+
+   
+    
+    
+    
+    fetch('http://localhost:3000/ghitz')
+    .then((response)=>JSON.stringify(response)).then((data)=>document.getElementById("get").innerHTML=(data));
+  
+  
+  
+
+    
+  
+    
+    
+    
+    
+    
+  
+ let title = "alex";
+      let body = "draghia";
+
+     fetch('http://localhost:3000/ghitz', {
+       method:'POST',
+       headers: {
+         'Accept': 'application/json, text/plain, */*',
+         'Content-type':'application/json'
+        },
+       body:JSON.stringify({title:title, body:body})
+     })
+    .then((res) => res.json())
+      .then((data) => console.log(data))
+    
+   //PUT ->UPDATE 
+     title = "ghita";
+       body = "stefan";
+
+      fetch('http://localhost:3000/ghitz/2', {
+        method:'PUT',
+        headers: {
+          'Accept': 'application/json, text/plain, */*',
+          'Content-type':'application/json'
+        },
+        body:JSON.stringify({title:title, body:body})
+      })
+      .then((res) => res.json())
+      .then((data) => console.log(data))
+    
+    
+    
+    //DELETE
+    
+ 
+
+      fetch('http://localhost:3000/ghitz/2', {
+        method:'DELETE',})
+      .then((res) => res.json())
+      .then((data) => console.log(data))
+    
+</script>
+    </body>
+
+</html>
