@@ -1,20 +1,187 @@
-[{
-
-    "name":"332",
-  "age":30,
-  "car":"ww" 
-    
-
-},
- 
- {
-
-    "name":"Alex",
-  "age":212,
-   "car":"audi" 
-    
-
+{
+  "ghitz": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "ghita",
+      "body": "stefan",
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "title": "draghia",
+      "body": "stefan",
+      "id": 5
+    },
+    {
+      "title": "draghia",
+      "body": "stefan",
+      "id": 6
+    },
+    {
+      "title": "draghia",
+      "body": "stefan",
+      "id": 7
+    },
+    {
+      "title": "draghia",
+      "body": "stefan",
+      "id": 8
+    },
+    {
+      "title": "draghia",
+      "body": "stefan",
+      "id": 9
+    },
+    {
+      "title": "draghia",
+      "body": "stefan",
+      "id": 10
+    },
+    {
+      "title": "draghia",
+      "body": "stefan",
+      "id": 11
+    },
+    {
+      "title": "draghia",
+      "body": "stefan",
+      "id": 12
+    },
+    {
+      "title": "draghia",
+      "body": "stefan",
+      "id": 13
+    },
+    {
+      "title": "draghia",
+      "body": "stefan",
+      "id": 14
+    },
+    {
+      "title": "draghia",
+      "body": "stefan",
+      "id": 15
+    },
+    {
+      "title": "draghia",
+      "body": "stefan",
+      "id": 16
+    },
+    {
+      "title": "draghia",
+      "body": "stefan",
+      "id": 17
+    },
+    {
+      "title": "alex",
+      "body": "draghia",
+      "id": 18
+    },
+    {
+      "title": "alex",
+      "body": "draghia",
+      "id": 19
+    },
+    {
+      "title": "alex",
+      "body": "draghia",
+      "id": 20
+    },
+    {
+      "title": "alex",
+      "body": "draghia",
+      "id": 21
+    },
+    {
+      "title": "alex",
+      "body": "draghia",
+      "id": 22
+    },
+    {
+      "title": "alex",
+      "body": "draghia",
+      "id": 23
+    },
+    {
+      "title": "alex",
+      "body": "draghia",
+      "id": 24
+    },
+    {
+      "title": "alex",
+      "body": "draghia",
+      "id": 25
+    },
+    {
+      "title": "alex",
+      "body": "draghia",
+      "id": 26
+    },
+    {
+      "title": "alex",
+      "body": "draghia",
+      "id": 27
+    },
+    {
+      "title": "alex",
+      "body": "draghia",
+      "id": 28
+    },
+    {
+      "title": "alex",
+      "body": "draghia",
+      "id": 29
+    },
+    {
+      "title": "alex",
+      "body": "draghia",
+      "id": 30
+    },
+    {
+      "title": "alex",
+      "body": "draghia",
+      "id": 31
+    },
+    {
+      "title": "alex",
+      "body": "draghia",
+      "id": 32
+    },
+    {
+      "title": "alex",
+      "body": "draghia",
+      "id": 33
+    },
+    {
+      "title": "alex",
+      "body": "draghia",
+      "id": 34
+    },
+    {
+      "title": "alex",
+      "body": "draghia",
+      "id": 35
+    },
+    {
+      "title": "alex",
+      "body": "draghia",
+      "id": 36
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
- 
- 
- ]
